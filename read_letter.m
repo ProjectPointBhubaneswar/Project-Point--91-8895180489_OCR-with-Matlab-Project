@@ -1,10 +1,5 @@
 function letter=read_letter(imagn,num_letras)
-% Computes the correlation between template and input image
-% and its output is a string containing the letter.
-% Size of 'imagn' must be 42 x 24 pixels
-% Example:
-% imagn=imread('D.bmp');
-% letter=read_letter(imagn)
+%
 global templates
 comp=[ ];
 for n=1:num_letras
@@ -87,4 +82,5 @@ elseif vd==35
 else
     letter='0';
 end
+
 
