@@ -37,7 +37,4 @@ fclose(fid);
 
 winopen('output.txt')
 
-%w=load output.txt
-% w = tts('I can speak.',[],-4,44100);
- %  wavplay(w,44100);
 
